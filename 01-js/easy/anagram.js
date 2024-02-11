@@ -5,7 +5,12 @@
 */
 
 function isAnagram(str1, str2) {
-
+  let len1 = str1.length;
+  let len2 = str2.length;
+  if (len1 !== len2) {
+    return false;
+  }
+  let obj1 = {};
 }
 
 module.exports = isAnagram;
